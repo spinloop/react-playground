@@ -11,7 +11,7 @@
     "url": "git+https://github.com/spinloop/react-playground.git"
   },
   "author": "chris eldridge",
-  "license": "ISC",
+  "private": true,
   "bugs": {
     "url": "https://github.com/spinloop/react-playground/issues"
   },
