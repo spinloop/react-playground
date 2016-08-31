@@ -1,0 +1,19 @@
+{
+  "name": "react-playground",
+  "version": "1.0.0",
+  "description": "by no means inert",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinloop/react-playground.git"
+  },
+  "author": "chris eldridge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spinloop/react-playground/issues"
+  },
+  "homepage": "https://github.com/spinloop/react-playground#readme"
+}
