@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/spinloop/react-playground/issues"
   },
-  "homepage": "https://github.com/spinloop/react-playground#readme"
+  "homepage": "https://github.com/spinloop/react-playground#readme",
+  "dependencies": {
+    "webpack": "^1.13.2"
+  }
 }
