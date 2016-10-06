@@ -4,6 +4,9 @@
   "description": "by no means inert",
   "main": "app.js",
   "scripts": {
+    "start": "npm run start:development",
+    "start:development": "npm run build && npm run development-server",
+    "development-server": "./bin/development-server.sh",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build:css",
     "build:css": "./bin/build-css.sh"

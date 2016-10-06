@@ -2,6 +2,6 @@
 by no means inert
 
 #run app
-webpack-dev-server
+`npm run start`
 
 http://localhost:8080
