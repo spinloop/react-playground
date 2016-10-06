@@ -1,3 +1,10 @@
+small-laptop-width = 1024px
+tablet-width = 768px
+
+below(breakpoint)
+  @media screen and (max-width: breakpoint - 1)
+    { block }
+
 *, *:before, *:after
   box-sizing: border-box
 
@@ -34,6 +41,10 @@ h2
 .test-flex
   background-color: gray
   flex: 1 0 auto
+
+  +below(tablet-width)
+    background-color: red
+    color: white
 
 img
   flex: 1
