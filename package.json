@@ -8,7 +8,8 @@
     "start:development": "npm run build && npm run development-server",
     "development-server": "./bin/development-server.sh",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build:css",
+    "build": "npm run build:js && npm run build:css",
+    "build:js": "./bin/build-js.sh",
     "build:css": "./bin/build-css.sh"
   },
   "repository": {
