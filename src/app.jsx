@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import GoogleMap from 'google-map-react';
+
 const domNode = document.getElementById('react');
 
 const Goat = () => (
@@ -17,6 +19,13 @@ const Goat = () => (
       />
       <div className="test-flex">
         goat
+      </div>
+      <div className="map-container">
+        <GoogleMap
+          bootstrapURLKeys={{key: "AIzaSyCGKWqL_sLDPF-9njIXFFLHAn5snxefUKg"}}
+          center={[41.826165, -71.412072]}
+          zoom={15}
+        />
       </div>
     </div>
   </div>
